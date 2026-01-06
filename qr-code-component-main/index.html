@@ -10,12 +10,55 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: hsl(212, 45%, 89%);
       font-family: 'Outfit', sans-serif;
       font-weight: 400;
     }
 
+     section {
+    .attribution { font-size: 11px; text-align: center; }
+
+    .attribution a { color: hsl(228, 45%, 44%); }
+    }
+    .outer-block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      border-radius: 15px;
+    }
+    .inner-block {
+      background-color: white;
+      max-width: 320px;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 1rem;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    } 
+    .text-block {
+      font-weight: 700;
+      
+      font-size: 1.2rem;
+      color: hsl(218, 44%, 22%);
+      margin: 1.5rem 0 0.75rem;
+
+    }
+    .qr-code-block img {
+      width: 100%;
+      border-radius: 0.75rem;
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -33,26 +76,6 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Cameron Darries</a>.
-  </div>
-  <style>
-  section {
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    }
-    .outer-block {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      border-radius: 100;
-    }
-    .inner-block {
-      background-color: hsl(0, 0%, 100%);
-      justify-content: center;
-      align-items: center;
-      ;
-    }
-  </style>
-  
+  </div> 
 </body>
 </html>

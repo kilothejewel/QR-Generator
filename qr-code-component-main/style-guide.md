@@ -1,4 +1,4 @@
-# Front-end Style Guide
+sx vc # Front-end Style Guide
 
 ## Layout
 
