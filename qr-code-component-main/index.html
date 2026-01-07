@@ -23,12 +23,17 @@
       font-family: 'Outfit', sans-serif;
       font-weight: 400;
     }
-
-     section {
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution {
+      bottom: 10px;
+      position: fixed;
+      font-size: 11px;
+      text-align: center;
+      width: 100%;
+    }
 
     .attribution a { color: hsl(228, 45%, 44%); }
-    }
+
+
     .outer-block {
       display: flex;
       justify-content: center;
@@ -46,14 +51,21 @@
       border-radius: 1rem;
       box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
     } 
-    .text-block {
+    .text-block h1{
       font-weight: 700;
-      
       font-size: 1.2rem;
       color: hsl(218, 44%, 22%);
       margin: 1.5rem 0 0.75rem;
-
     }
+
+    .text-block p {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: hsl(220, 15%, 55%);
+      margin: 0 0 1rem;
+      padding: 0 1rem;
+    }
+
     .qr-code-block img {
       width: 100%;
       border-radius: 0.75rem;
